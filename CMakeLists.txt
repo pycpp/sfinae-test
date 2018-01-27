@@ -1,0 +1,53 @@
+#  :copyright: (c) 2017-2018 Alex Huszagh.
+#  :license: MIT, see licenses/mit.md for more details.
+
+add_tests(
+    back.cc
+    emplace_back.cc
+    emplace_front.cc
+    front.cc
+    has_bit_and.cc
+    has_bit_and_assign.cc
+    has_bit_or.cc
+    has_bit_or_assign.cc
+    has_bit_xor.cc
+    has_bit_xor_assign.cc
+    has_divides.cc
+    has_divides_assign.cc
+    has_equal_to.cc
+    has_greater.cc
+    has_greater_equal.cc
+    has_left_shift.cc
+    has_left_shift_assign.cc
+    has_less.cc
+    has_less_equal.cc
+    has_logical_and.cc
+    has_logical_or.cc
+    has_member_function.cc
+    has_member_type.cc
+    has_member_variable.cc
+    has_minus.cc
+    has_minus_assign.cc
+    has_modulus.cc
+    has_modulus_assign.cc
+    has_multiplies.cc
+    has_multiplies_assign.cc
+    has_not_equal_to.cc
+    has_plus.cc
+    has_plus_assign.cc
+    has_right_shift.cc
+    has_right_shift_assign.cc
+    has_subscript.cc
+    is_complex.cc
+    is_specialization.cc
+    is_pair.cc
+    is_reference_wrapper.cc
+    is_string.cc
+    is_tuple.cc
+    pop_back.cc
+    pop_front.cc
+    push_back.cc
+    push_front.cc
+    reserve.cc
+    shrink_to_fit.cc
+)
