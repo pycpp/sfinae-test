@@ -31,9 +31,9 @@ TEST(has_less, has_less)
     static_assert(!has_less<p1, int>::value, "");
     static_assert(!has_less<p1, char>::value, "");
 
-#if !defined(HAVE_MSVC)
+#if !defined(PYCPP_MSVC)
     static_assert(has_less<t1>::value, "");
     static_assert(has_less<t2>::value, "");
     static_assert(has_less<t3>::value, "");
-#endif      // HAVE_MSVC
+#endif      // PYCPP_MSVC
 }

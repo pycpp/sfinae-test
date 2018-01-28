@@ -31,9 +31,9 @@ TEST(has_greater, has_greater)
     static_assert(!has_greater<p1, int>::value, "");
     static_assert(!has_greater<p1, char>::value, "");
 
-#if !defined(HAVE_MSVC)
+#if !defined(PYCPP_MSVC)
     static_assert(has_greater<t1>::value, "");
     static_assert(has_greater<t2>::value, "");
     static_assert(has_greater<t3>::value, "");
-#endif      // HAVE_MSVC
+#endif      // PYCPP_MSVC
 }

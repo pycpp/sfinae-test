@@ -31,9 +31,9 @@ TEST(has_not_equal_to, has_not_equal_to)
     static_assert(!has_not_equal_to<p1, int>::value, "");
     static_assert(!has_not_equal_to<p1, char>::value, "");
 
-#if !defined(HAVE_MSVC)
+#if !defined(PYCPP_MSVC)
     static_assert(has_not_equal_to<t1>::value, "");
     static_assert(has_not_equal_to<t2>::value, "");
     static_assert(has_not_equal_to<t3>::value, "");
-#endif      // HAVE_MSVC
+#endif      // PYCPP_MSVC
 }
